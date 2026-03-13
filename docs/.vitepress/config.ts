@@ -77,6 +77,9 @@ export default defineConfig({
           items: [
             { text: '简介', link: '/ai/' },
             { text: '机器学习', link: '/ai/machine-learning' },
+            { text: '神经网络', link: '/ai/neural-networks' },
+            { text: '计算机视觉', link: '/ai/computer-vision' },
+            { text: '自然语言处理', link: '/ai/nlp' },
             { text: 'Prompt 工程', link: '/ai/prompt-engineering' },
             { text: '大语言模型', link: '/ai/llm' }
           ]
