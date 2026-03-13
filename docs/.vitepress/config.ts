@@ -7,11 +7,11 @@ export default defineConfig({
   base: '/LoveCoding/',
 
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }]
+    ['link', { rel: 'icon', href: '/LoveCoding/logo.svg' }]
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/LoveCoding/logo.svg',
 
     nav: [
       { text: '首页', link: '/LoveCoding/' },
