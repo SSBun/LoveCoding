@@ -1,0 +1,28 @@
+{
+  "name": "love-coding-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "LoveCoding 技术文档网站 - 涵盖 iOS, Android, Web, Server, AI 等技术类目",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "documentation",
+    "vitepress",
+    "ios",
+    "android",
+    "web",
+    "server",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {}
+}
