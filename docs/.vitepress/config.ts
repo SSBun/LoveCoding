@@ -19,6 +19,7 @@ export default defineConfig({
       { text: 'Android', link: '/android/' },
       { text: 'Web', link: '/web/' },
       { text: 'Server', link: '/server/' },
+      { text: 'DevOps', link: '/devops/' },
       { text: 'AI', link: '/ai/' }
     ],
 
@@ -70,16 +71,47 @@ export default defineConfig({
           ]
         }
       ],
+      '/devops/': [
+        {
+          text: 'DevOps',
+          collapsed: false,
+          items: [
+            { text: '简介', link: '/devops/' },
+            { text: 'Docker', link: '/devops/docker' },
+            { text: 'Kubernetes', link: '/devops/kubernetes' },
+            { text: 'CI/CD', link: '/devops/cicd' }
+          ]
+        }
+      ],
       '/ai/': [
         {
           text: 'AI 技术',
           collapsed: false,
           items: [
-            { text: '简介', link: '/ai/' },
-            { text: '机器学习', link: '/ai/machine-learning' },
-            { text: '神经网络', link: '/ai/neural-networks' },
+            { text: '简介', link: '/ai/' }
+          ]
+        },
+        {
+          text: '机器学习',
+          collapsed: false,
+          items: [
+            { text: '监督学习', link: '/ai/machine-learning' },
+            { text: '无监督学习', link: '/ai/machine-learning' },
+            { text: '深度学习', link: '/ai/neural-networks' }
+          ]
+        },
+        {
+          text: '专项领域',
+          collapsed: false,
+          items: [
             { text: '计算机视觉', link: '/ai/computer-vision' },
-            { text: '自然语言处理', link: '/ai/nlp' },
+            { text: '自然语言处理', link: '/ai/nlp' }
+          ]
+        },
+        {
+          text: 'LLM 应用',
+          collapsed: false,
+          items: [
             { text: 'Prompt 工程', link: '/ai/prompt-engineering' },
             { text: '大语言模型', link: '/ai/llm' }
           ]
