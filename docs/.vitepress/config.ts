@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'LoveCoding',
   description: '技术文档网站 - 涵盖 iOS, Android, Web, Server, AI 等技术类目',
   lang: 'zh-CN',
+  base: '/LoveCoding/',
 
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }]
@@ -13,12 +14,12 @@ export default defineConfig({
     logo: '/logo.svg',
 
     nav: [
-      { text: '首页', link: '/' },
-      { text: 'iOS', link: '/ios/' },
-      { text: 'Android', link: '/android/' },
-      { text: 'Web', link: '/web/' },
-      { text: 'Server', link: '/server/' },
-      { text: 'AI', link: '/ai/' }
+      { text: '首页', link: '/LoveCoding/' },
+      { text: 'iOS', link: '/LoveCoding/ios/' },
+      { text: 'Android', link: '/LoveCoding/android/' },
+      { text: 'Web', link: '/LoveCoding/web/' },
+      { text: 'Server', link: '/LoveCoding/server/' },
+      { text: 'AI', link: '/LoveCoding/ai/' }
     ],
 
     sidebar: {
@@ -27,10 +28,10 @@ export default defineConfig({
           text: 'iOS 开发',
           collapsed: false,
           items: [
-            { text: '简介', link: '/ios/' },
-            { text: 'Swift 基础', link: '/ios/swift' },
-            { text: 'SwiftUI', link: '/ios/swiftui' },
-            { text: 'Foundation', link: '/ios/foundation' }
+            { text: '简介', link: '/LoveCoding/ios/' },
+            { text: 'Swift 基础', link: '/LoveCoding/ios/swift' },
+            { text: 'SwiftUI', link: '/LoveCoding/ios/swiftui' },
+            { text: 'Foundation', link: '/LoveCoding/ios/foundation' }
           ]
         }
       ],
@@ -39,9 +40,9 @@ export default defineConfig({
           text: 'Android 开发',
           collapsed: false,
           items: [
-            { text: '简介', link: '/android/' },
-            { text: 'Kotlin', link: '/android/kotlin' },
-            { text: 'Jetpack', link: '/android/jetpack' }
+            { text: '简介', link: '/LoveCoding/android/' },
+            { text: 'Kotlin', link: '/LoveCoding/android/kotlin' },
+            { text: 'Jetpack', link: '/LoveCoding/android/jetpack' }
           ]
         }
       ],
@@ -50,10 +51,10 @@ export default defineConfig({
           text: 'Web 开发',
           collapsed: false,
           items: [
-            { text: '简介', link: '/web/' },
-            { text: 'React', link: '/web/react' },
-            { text: 'Vue', link: '/web/vue' },
-            { text: 'TypeScript', link: '/web/typescript' }
+            { text: '简介', link: '/LoveCoding/web/' },
+            { text: 'React', link: '/LoveCoding/web/react' },
+            { text: 'Vue', link: '/LoveCoding/web/vue' },
+            { text: 'TypeScript', link: '/LoveCoding/web/typescript' }
           ]
         }
       ],
@@ -62,10 +63,10 @@ export default defineConfig({
           text: '服务端开发',
           collapsed: false,
           items: [
-            { text: '简介', link: '/server/' },
-            { text: 'Node.js', link: '/server/nodejs' },
-            { text: 'Python', link: '/server/python' },
-            { text: '数据库', link: '/server/database' }
+            { text: '简介', link: '/LoveCoding/server/' },
+            { text: 'Node.js', link: '/LoveCoding/server/nodejs' },
+            { text: 'Python', link: '/LoveCoding/server/python' },
+            { text: '数据库', link: '/LoveCoding/server/database' }
           ]
         }
       ],
@@ -74,17 +75,17 @@ export default defineConfig({
           text: 'AI 技术',
           collapsed: false,
           items: [
-            { text: '简介', link: '/ai/' },
-            { text: '机器学习', link: '/ai/machine-learning' },
-            { text: 'Prompt 工程', link: '/ai/prompt-engineering' },
-            { text: '大语言模型', link: '/ai/llm' }
+            { text: '简介', link: '/LoveCoding/ai/' },
+            { text: '机器学习', link: '/LoveCoding/ai/machine-learning' },
+            { text: 'Prompt 工程', link: '/LoveCoding/ai/prompt-engineering' },
+            { text: '大语言模型', link: '/LoveCoding/ai/llm' }
           ]
         }
       ]
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-repo' }
+      { icon: 'github', link: 'https://github.com/SSBun/LoveCoding' }
     ],
 
     search: {

@@ -8,27 +8,27 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /ios/
+      link: /LoveCoding/ios/
     - theme: alt
       text: 查看文档
-      link: /web/
+      link: /LoveCoding/web/
 
 features:
   - title: iOS 开发
     details: Swift, SwiftUI, Foundation 等 iOS 开发技术
-    link: /ios/
+    link: /LoveCoding/ios/
   - title: Android 开发
     details: Kotlin, Jetpack 等 Android 开发技术
-    link: /android/
+    link: /LoveCoding/android/
   - title: Web 开发
     details: React, Vue, TypeScript 等 Web 开发技术
-    link: /web/
+    link: /LoveCoding/web/
   - title: Server 端开发
     details: Node.js, Python, 数据库等服务端技术
-    link: /server/
+    link: /LoveCoding/server/
   - title: AI 技术
     details: 机器学习, Prompt 工程, 大语言模型
-    link: /ai/
+    link: /LoveCoding/ai/
 ---
 
 <script setup>
